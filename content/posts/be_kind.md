@@ -1,0 +1,22 @@
+---
+title: why to be kind
+---
+I like talking to people. I always have an ear to hear someone's story and a mouth to share something I found interesting. One of my favorite things to do is getting to know a new friend, or catching up with an old one. 
+
+I have found this to be especially true here in China. I've had the pleasure of being an English teacher at an English training school, where I spent many nights in the last month chatting with the locals and foreigners. 
+
+In my whole life, whether I'm listening to a tearful breakup story or chatting about our futures, I've come to the quiet revelation that we are all truly, inescapably different. Everything from our neighborhoods and families to our DNA and hobbies are incredibly unique, a true one of a kind. And this is only more true the older we get, where our branching decisions mark us as more and more unique from others around us. 
+
+In the face of this revelation, I think there are two reasons I try to be kind to people I cross paths with. 
+
+Firstly, kindness allows you to learn from others. I think that every person I come across has at least a hundred things they can teach me; opening yourself up to the possibility of learning something from them requires you to be kind to them. 
+
+Secondly, and more importantly, in the face of our unique identities, it is almost impossible to judge someone else's behavior. You really have no idea why someone is bitter and sad, why they are so carefree and giddy, why they're closed off or why they're an open book. 
+
+Kindness is easy when it's social. It's obvious to check whether your friends are okay, and to try to be pleasant when meeting someone new. The hard part is being kind when you feel like you've been wronged, or when you dislike someone's behavior. 
+
+Maybe your cashier was particularly snobby, or your friend made a comment you didn't really like. Maybe it's just someone that supports the opposite political party, or some person on Twitter. Maybe they're famous, or they're just a random person. No matter what the situation, I have found it helpful to give people the benefit of the doubt about their beliefs and behavior. 
+
+I don't know what environment someone grew up in that led them to believe what they believe or behave the way they behave, nor what their experiences and life choices are. But by choosing to be kind, at worst, I will do my part to make our interactions more amicable, and at best, I can learn something about their life or perspective. 
+
+I think that when we choose to be kind, we're choosing a future where we are closer to one another. 

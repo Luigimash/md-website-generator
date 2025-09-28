@@ -9,8 +9,7 @@ export function generatePageTemplate({ title, content, breadcrumbs, navigation, 
 <body>
   <header>
     <nav>
-      <a href="/">Home</a>
-      ${navigation}
+      <span class="nav-item"><a href="/">Home</a></span>${navigation}
     </nav>
   </header>
   
@@ -47,8 +46,7 @@ export function generateFolderIndexTemplate({ title, folderName, items, breadcru
 <body>
   <header>
     <nav>
-      <a href="/">Home</a>
-      ${navigation}
+      <span class="nav-item"><a href="/">Home</a></span>${navigation}
     </nav>
   </header>
   

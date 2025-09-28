@@ -1,0 +1,14 @@
+Frieren is a popular anime following the story of Frieren, a powerful elven mage, after she and the party of heroes have already saved the world. It's one of my favourite shows ever!
+
+Part of what makes Frieren’s journey so enchantingly beautiful is because of how meaningless it is. The world has been saved from the most evil of forces by her and her party. As one of the most powerful elf mages in the world, Frieren could easily be a renowned powerhouse, the leader of a country, a pioneer in magic research, or any such endeavour. 
+
+Instead, she chooses to collect niche, almost useless spells. And she sets off on a ten year long journey once more, not to save the world, but because she wants to see her old friend in heaven. 
+
+It’s totally meaningless. She’s one of the strongest beings in existence, and still doesn’t want to do anything meaningful in the world. Lots of people in today’s world would call that “wasted potential”, and in fact that is exactly what Serie calls Frieren whenever they meet. 
+
+Yet, the beauty in Frieren is how she uses her strengths to help individuals, people she just happens to cross paths with. She cleans statues, clears surrounding monsters, helps those in need, preserves extinct flowers, and in these small gestures, brightens the world in her own small way, while pursuing her own meaningless goals. 
+
+Frieren has a lot to teach me about my own life. That meaningful affect in the world doesn’t have to come from doing something as grand as saving it, and can come from helping people that cross your path, or carrying forward the memories and generosity of people that have loved you.
+
+--- 
+*if you haven't watched Frieren, give it a try! The first season is 28 episodes of fantastic character writing and a very relaxing, yet unique plot. highly recommend!*

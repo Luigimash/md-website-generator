@@ -1,37 +1,70 @@
 {
   "main": {
-    "id": "3a68d99e68cde087",
+    "id": "cd75990f0b748760",
     "type": "split",
     "children": [
       {
-        "id": "23478d40c0092978",
+        "id": "aa0c51f221305383",
         "type": "tabs",
         "children": [
           {
-            "id": "5bcb502ca0dabaeb",
+            "id": "3b2bc1b021a4db0d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
+            }
+          },
+          {
+            "id": "d8d60b58300dd5e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "65b42ca25df85b06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "books"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2f3f91ee9eb494d7",
+    "id": "b54bb704c243c7ed",
     "type": "split",
     "children": [
       {
-        "id": "e217a484e2ddadb0",
+        "id": "22f2b25690d75ea4",
         "type": "tabs",
         "children": [
           {
-            "id": "98d356ca3a3e25fe",
+            "id": "55d5579b9e95b9c7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +77,7 @@
             }
           },
           {
-            "id": "5db685e447c07780",
+            "id": "f9d0f5b316c36d18",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +94,7 @@
             }
           },
           {
-            "id": "8296a6e59da40f30",
+            "id": "f3f3d654407d5988",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,19 +110,20 @@
     "width": 300
   },
   "right": {
-    "id": "1523f211b13fcfce",
+    "id": "64ad34450b1250b0",
     "type": "split",
     "children": [
       {
-        "id": "5e4bc38a145a9295",
+        "id": "9e936b79d5a428e4",
         "type": "tabs",
         "children": [
           {
-            "id": "d046191009afa237",
+            "id": "823dd3cf6d4d1cdf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +133,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for index"
             }
           },
           {
-            "id": "10061fd3344f0049",
+            "id": "d12538214c77a54d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from index"
             }
           },
           {
-            "id": "1adcf446bb60bd05",
+            "id": "584825d924e0d64e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,17 +166,18 @@
             }
           },
           {
-            "id": "f5666148b22880b0",
+            "id": "02cfaaf3ebfc3ba7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of index"
             }
           }
         ]
@@ -162,37 +198,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "5bcb502ca0dabaeb",
+  "active": "65b42ca25df85b06",
   "lastOpenFiles": [
-    "content/index.md",
-    "public_temp/info",
-    "public_temp/posts",
-    "public_temp/books.html",
-    "public_temp/currently.html",
-    "public_temp/esports.html",
-    "public_temp/index.html",
-    "public_temp/principles.html",
-    "public_temp/styles.css",
-    "public_temp/images",
-    "public_temp",
-    "content/esports.md",
-    "content/currently.md",
-    "content/books.md",
-    "content/principles.md",
-    "content/posts/frieren.md",
-    "claude.md",
-    "mission.md",
-    "public/images/team_comms_at_grubhubfeedingfrenzy4.jpg",
-    "public/images/steadicam.jpg",
-    "public/images/standing_with_ksante_cosplayer.jpg",
-    "public/images/prod r.jpg",
-    "public/images/no_sleep_evo_2.jpg",
-    "public/images/no_sleep_evo.jpg",
-    "public/images/me_on_stage_evo.jpg",
-    "public/images/jatt_kobe.jpg",
-    "public/images/grubhub feeding frenzy compressed.png",
-    "public/images/goml_2022.jpg",
-    "content/portfolio.md",
-    "README.md"
+    "currently.md",
+    "esports.md",
+    "index.md",
+    "portfolio.md",
+    "principles.md",
+    "posts/things_to_do_in_waterloo.md",
+    "books.md",
+    "posts/love_yourself_so_you_can_love_others.md",
+    "posts/frieren.md",
+    "posts/exceptional_is_not_sexy.md",
+    "posts/be_kind.md",
+    "photos/conrete_jungle_uwaterloo.jpg"
   ]
 }
