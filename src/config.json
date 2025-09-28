@@ -1,0 +1,5 @@
+{
+  "siteName": "My Site",
+  "inputDir": "./content",
+  "outputDir": "./public"
+}
