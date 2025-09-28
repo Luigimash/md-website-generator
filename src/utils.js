@@ -39,8 +39,11 @@ export function createBreadcrumbs(filePath) {
   return breadcrumbs.join(' &gt; ');
 }
 
-export function createNavigation(rootItems) {
+export function createNavigation(rootItems, config = {}) {
+  const excludeList = config.excludeFromNavigation || [];
+  
   const items = Object.entries(rootItems)
+    .filter(([name]) => !excludeList.includes(name))
     .sort(([a], [b]) => a.localeCompare(b))
     .map(([name, item]) => {
       if (item.type === 'folder') {
@@ -50,5 +53,5 @@ export function createNavigation(rootItems) {
       }
     });
   
-  return items.join(' | ');
+  return items.map(item => `<span class="nav-item">${item}</span>`).join('');
 }

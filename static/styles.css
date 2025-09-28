@@ -1,5 +1,5 @@
 body {
-  font-family: "Times New Roman", serif;
+  font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
@@ -18,10 +18,19 @@ header nav {
   font-weight: bold;
 }
 
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-item:not(:last-child)::after {
+  content: " | ";
+  color: #000000;
+  margin-left: 10px;
+}
+
 header nav a {
   color: #0000ff;
   text-decoration: underline;
-  margin-right: 10px;
 }
 
 header nav a:visited {
@@ -120,18 +129,86 @@ blockquote {
   font-style: italic;
 }
 
-@media (max-width: 600px) {
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 16px 0;
+}
+
+@media (max-width: 768px) {
   body {
-    padding: 10px;
-    font-size: 14px;
+    padding: 15px;
+    font-size: 15px;
   }
   
-  header nav a {
-    display: block;
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
     margin-bottom: 5px;
   }
   
+  h1 { font-size: 22px; }
+  h2 { font-size: 19px; }
+  h3 { font-size: 17px; }
+  
+  pre {
+    overflow-x: scroll;
+    font-size: 12px;
+  }
+  
+  table {
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+    font-size: 14px;
+    overflow-x: hidden;
+  }
+  
+  header nav {
+    display: block;
+    line-height: 1.6;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .nav-item {
+    display: inline;
+    margin-right: 0;
+  }
+  
+  .nav-item:not(:last-child)::after {
+    content: " | ";
+  }
+  
+  .breadcrumb {
+    font-size: 12px;
+    word-break: break-all;
+  }
+  
+  h1 { font-size: 20px; }
+  h2 { font-size: 18px; }
+  h3 { font-size: 16px; }
+  
   ul, ol {
     padding-left: 20px;
+  }
+  
+  th, td {
+    padding: 3px 6px;
+    font-size: 13px;
   }
 }

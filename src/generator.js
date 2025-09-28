@@ -5,13 +5,32 @@ import { parseMarkdownFile, copyImages } from './parser.js';
 import { generatePageTemplate, generateFolderIndexTemplate } from './templates.js';
 import { createBreadcrumbs, createNavigation } from './utils.js';
 
+function filterIgnoredPaths(files, ignorePaths) {
+  if (!ignorePaths || ignorePaths.length === 0) {
+    return files;
+  }
+  
+  return files.filter(file => {
+    return !ignorePaths.some(ignorePath => {
+      const normalizedIgnore = ignorePath.replace(/\\/g, '/');
+      const normalizedFile = file.replace(/\\/g, '/');
+      
+      // Check if file starts with ignored path (for folders)
+      return normalizedFile.startsWith(normalizedIgnore + '/') || 
+             normalizedFile === normalizedIgnore ||
+             normalizedFile === normalizedIgnore + '.md';
+    });
+  });
+}
+
 export async function buildSite(inputDir, outputDir, config) {
   const tempDir = `${outputDir}_temp`;
   
   try {
     await fs.ensureDir(tempDir);
     
-    const markdownFiles = await glob('**/*.md', { cwd: inputDir });
+    const allMarkdownFiles = await glob('**/*.md', { cwd: inputDir });
+    const markdownFiles = filterIgnoredPaths(allMarkdownFiles, config.ignorePaths || []);
     const folderStructure = await buildFolderStructure(inputDir, markdownFiles);
     
     await copyImages(inputDir, tempDir);
@@ -45,7 +64,7 @@ async function processMarkdownFile(file, inputDir, outputDir, folderStructure, c
   
   const parsed = await parseMarkdownFile(inputPath, inputDir);
   const breadcrumbs = createBreadcrumbs(relativePath);
-  const navigation = createNavigation(folderStructure.children);
+  const navigation = createNavigation(folderStructure.children, config);
   
   const html = generatePageTemplate({
     title: parsed.title,
@@ -98,7 +117,7 @@ async function generateFolderIndexes(structure, outputDir, config, currentPath =
       await fs.ensureDir(folderPath);
       
       const breadcrumbs = createBreadcrumbs(item.path);
-      const navigation = createNavigation(structure.children);
+      const navigation = createNavigation(structure.children, config);
       
       const html = generateFolderIndexTemplate({
         title: name,

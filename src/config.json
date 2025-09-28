@@ -1,5 +1,7 @@
 {
   "siteName": "My Site",
   "inputDir": "./content",
-  "outputDir": "./public"
+  "outputDir": "./public",
+  "excludeFromNavigation": ["index"],
+  "ignorePaths": []
 }
