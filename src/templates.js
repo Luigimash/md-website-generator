@@ -1,0 +1,67 @@
+export function generatePageTemplate({ title, content, breadcrumbs, navigation, siteName }) {
+  return `<!DOCTYPE html>
+<html>
+<head>
+  <title>${title} - ${siteName}</title>
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/">Home</a>
+      ${navigation}
+    </nav>
+  </header>
+  
+  <div class="breadcrumb">
+    ${breadcrumbs}
+  </div>
+  
+  <main>
+    ${content}
+  </main>
+</body>
+</html>`;
+}
+
+export function generateFolderIndexTemplate({ title, folderName, items, breadcrumbs, navigation, siteName }) {
+  const itemsList = Object.entries(items)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([name, item]) => {
+      if (item.type === 'folder') {
+        return `<li><a href="/${item.path}/">${name}/</a></li>`;
+      } else {
+        return `<li><a href="/${item.path}.html">${item.name}</a></li>`;
+      }
+    })
+    .join('\n      ');
+
+  return `<!DOCTYPE html>
+<html>
+<head>
+  <title>${title} - ${siteName}</title>
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/">Home</a>
+      ${navigation}
+    </nav>
+  </header>
+  
+  <div class="breadcrumb">
+    ${breadcrumbs}
+  </div>
+  
+  <main>
+    <h1>${folderName}</h1>
+    <ul>
+      ${itemsList}
+    </ul>
+  </main>
+</body>
+</html>`;
+}
