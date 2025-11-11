@@ -1,3 +1,4 @@
+last updated: November 11 2025
 ## watching
 [Goobie and Doobie](https://www.youtube.com/@GoobieAndDoobie)\
 [Life of Riza](https://www.youtube.com/@LifeOfRiza)\
@@ -19,6 +20,5 @@ hosting events @ Socratica.info
 ## learning 
 passing 3B mechatronics engineering @ uwaterloo
 ## reading
+nothing right now
 [My Goodreads](https://www.goodreads.com/user/show/152629681-jackie-yi)
-[Engineers of Jihad: The Curious Connection between Violent Extremism and Education](https://www.goodreads.com/book/show/26597299-engineers-of-jihad)
-[Range: Why Generalists Triumph in a Specialized World](https://www.goodreads.com/book/show/41795733-range)
