@@ -38,13 +38,6 @@ export function generateFolderIndexTemplate({ title, folderName, items, breadcru
   <link rel="stylesheet" href="/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-  <header>
-    <nav>
-      <span class="nav-item"><a href="/">Home</a></span>${navigation}
-    </nav>
-  </header>
-  
   <div class="breadcrumb">
     ${breadcrumbs}
   </div>
@@ -58,3 +51,16 @@ export function generateFolderIndexTemplate({ title, folderName, items, breadcru
 </body>
 </html>`;
 }
+
+
+
+/*
+Storage for code if you want to spawn a header on a page
+<body>
+  <header>
+    <nav>
+      <span class="nav-item"><a href="/">Home</a></span>${navigation}
+    </nav>
+  </header>
+  
+*/

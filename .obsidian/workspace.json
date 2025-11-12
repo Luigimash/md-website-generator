@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "my_breakfast_recipe"
             }
+          },
+          {
+            "id": "203398167f16a797",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +179,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "5bcb502ca0dabaeb",
+  "active": "203398167f16a797",
   "lastOpenFiles": [
     "content/posts/be_kind.md",
     "content/posts/my_breakfast_recipe.md",
