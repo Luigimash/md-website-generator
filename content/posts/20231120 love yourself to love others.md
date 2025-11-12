@@ -1,6 +1,7 @@
 ---
 title: love yourself to love others
 ---
+# love yourself to love others
 There's a lot of reasons you should try to love yourself. A lot of it is marketed to us in the form of health - eating a certain way, exercising, skincare, hygiene, vacations, mental health, etc. A healthy life is a good life! 
 
 But I want to talk about another reasons to prioritize self-care and love, and not in the sense of general wellbeing and healthcare. A truth I live by is the idea that it is **impossible** to love someone else **more** than you love yourself. Not impossible because you would be unwilling to do so, or because the effort is too high, but because loving is a **skill**. 

@@ -1,6 +1,7 @@
 ---
 title: dont dismiss waterloo
 ---
+# don't dismiss waterloo
 *Sept 19, 2025*
 *[My Google Maps list of recommended food, activities, buildings, parks and more around the KW region](https://maps.app.goo.gl/D1cLqGYJVwx74GCfA )*
 

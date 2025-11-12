@@ -1,6 +1,7 @@
 ---
 title: exceptional is not sexy
 ---
+# exceptional is not sexy
 the best people in any job are not sexy. the act of doing good work is almost never sexy, even when your job is to be sexy. 
 
 professional athletes aren’t great because they practice really hard sometimes. more simply, they just showed up when their competition wouldn’t. 
