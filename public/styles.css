@@ -1,8 +1,8 @@
 body {
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 14px;
   line-height: 1.4;
-  max-width: 100vh;
+  max-width: 80vh;
   width:100%;
   margin: 30px auto;
   padding: 10px 20px;
@@ -32,12 +32,12 @@ header nav {
 }
 
 header nav a {
-  color: #0000ff;
+  color: #003d7a;
   text-decoration: underline;
 }
 
 header nav a:visited {
-  color: #4da6ff;
+  color: #003d7a;
 }
 
 .breadcrumb {
@@ -47,12 +47,12 @@ header nav a:visited {
 }
 
 .breadcrumb a {
-  color: #0000ff;
+  color: #003d7a;
   text-decoration: underline;
 }
 
 .breadcrumb a:visited {
-  color: #4da6ff;
+  color: #003d7a;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -78,12 +78,12 @@ p {
 }
 
 a {
-  color: #0000ff;
+  color: #003d7a;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #4da6ff;
+  color: #003d7a;
 }
 
 ul, ol {
@@ -137,81 +137,4 @@ img {
   height: auto;
   display: block;
   margin: 16px 0;
-}
-
-@media (max-width: 768px) {
-  body {
-    padding: 15px;
-    font-size: 15px;
-  }
-  
-  header nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-  }
-  
-  .nav-item {
-    margin-right: 15px;
-    margin-bottom: 5px;
-  }
-  
-  h1 { font-size: 22px; }
-  h2 { font-size: 19px; }
-  h3 { font-size: 17px; }
-  
-  pre {
-    overflow-x: scroll;
-    font-size: 12px;
-  }
-  
-  table {
-    font-size: 14px;
-    overflow-x: auto;
-    display: block;
-    white-space: nowrap;
-  }
-}
-
-@media (max-width: 480px) {
-  body {
-    padding: 10px;
-    font-size: 14px;
-    overflow-x: hidden;
-  }
-  
-  header nav {
-    display: block;
-    line-height: 1.6;
-    width: 100%;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-  }
-  
-  .nav-item {
-    display: inline;
-    margin-right: 0;
-  }
-  
-  .nav-item:not(:last-child)::after {
-    content: " | ";
-  }
-  
-  .breadcrumb {
-    font-size: 12px;
-    word-break: break-all;
-  }
-  
-  h1 { font-size: 20px; }
-  h2 { font-size: 18px; }
-  h3 { font-size: 16px; }
-  
-  ul, ol {
-    padding-left: 20px;
-  }
-  
-  th, td {
-    padding: 3px 6px;
-    font-size: 13px;
-  }
 }
