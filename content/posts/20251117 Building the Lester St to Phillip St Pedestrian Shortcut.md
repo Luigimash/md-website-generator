@@ -4,13 +4,14 @@ An unspoken piece of infrastructure that most of the students at UWaterloo secre
 I made a tweet about it that got some traction a while back, which inspired me to try to figure out *why* we haven't built this yet, and to try to change that.
 ![[Lest_St_reddit_post.jpg]]
 *links to [tweet](https://x.com/looeegee_/status/1975982804728193080) and [reddit post](https://www.reddit.com/r/uwaterloo/comments/1o1tmyr/imagine_if_we_had_a_permanent_shortcut_from/?). Quite a lot of online support!*
+
 I found some other Reddit posts over the years as well:
 ![[reddit_person_9mo.jpg]]
-[link 9mo](https://www.reddit.com/r/uwaterloo/comments/1ij9rs1/i_wish_there_was_an_actual_road_between_phillip/)
+[link](https://www.reddit.com/r/uwaterloo/comments/1ij9rs1/i_wish_there_was_an_actual_road_between_phillip/)
 ![[reddit_person_9mo.jpg]]
-*[link 4y](https://www.reddit.com/r/uwaterloo/comments/qywpi7/shortcut_from_lester_to_philip/)*
+*[link](https://www.reddit.com/r/uwaterloo/comments/qywpi7/shortcut_from_lester_to_philip/)*
 ![[reddit_person_7y.jpg]]
-[link 7y](https://www.reddit.com/r/uwaterloo/comments/9dvih8/looking_to_band_together_with_students_to_create/) 
+[link](https://www.reddit.com/r/uwaterloo/comments/9dvih8/looking_to_band_together_with_students_to_create/) 
 And even people who made a creative trapdoor in the fence:
 ![[twitter_gif.gif]]
 [tweet](https://x.com/clayhaight/status/1976006195631804765)
