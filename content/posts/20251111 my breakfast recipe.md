@@ -4,6 +4,8 @@ title: my breakfast
 *November 11, 2025*
 I've been eating the same overnight oats recipe every day for like 2 years now. I make it as the last thing I do every night before I go to bed. I find it's a good winding down ritual before I go to sleep, and there's something nice about making the last thing you do prepare you for the next day ahead. 
 
+![[breakfast_overnight_oats.jpg]]
+
 I have never measured my ingredients so I'm going to use vague amounts like "a spoonful", but honestly the ratios of these ingredients are so subjective and you can add or remove most of these anyways. 
 ### Ingredients:
 - 1 Banana

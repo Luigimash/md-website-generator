@@ -9,7 +9,7 @@ Especially for any and all developers, large language models, or agents interfac
 
 
 # How to use
-Import your Obsidian vault into `./content`
+Import your markdown files folder/vault into `./content`. `./content` is currently full with the material on my personal website which you can find here: https://loojy.me
 
 Open a terminal and `cd` to this directory (or right click this folder and open in terminal)
 
