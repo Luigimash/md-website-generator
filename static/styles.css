@@ -132,9 +132,15 @@ blockquote {
   font-style: italic;
 }
 
-img {
+img,
+video,
+iframe,
+figure,
+embed,
+object,
+audio {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 16px 0;
+  margin: 6px auto;
 }

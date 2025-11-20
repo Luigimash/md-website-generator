@@ -1,20 +1,13 @@
-*Last edited November 17, 2025*
+*Last edited November 18, 2025*
 An unspoken piece of infrastructure that most of the students at UWaterloo secretly want is a direct shortcut from Lester Street to Phillip Street, ideally close to the Hickory Street connection. 
 
 I made a tweet about it that got some traction a while back, which inspired me to try to figure out *why* we haven't built this yet, and to try to change that.
-![[Lest_St_reddit_post.jpg]]
-*links to [tweet](https://x.com/looeegee_/status/1975982804728193080) and [reddit post](https://www.reddit.com/r/uwaterloo/comments/1o1tmyr/imagine_if_we_had_a_permanent_shortcut_from/?). Quite a lot of online support!*
+![[Lest_St_reddit_post.jpg]] *links to [tweet](https://x.com/looeegee_/status/1975982804728193080) and [reddit post](https://www.reddit.com/r/uwaterloo/comments/1o1tmyr/imagine_if_we_had_a_permanent_shortcut_from/?). Quite a lot of online support!*
 
 I found some other Reddit posts over the years as well:
-![[reddit_person_9mo.jpg]]
-[link](https://www.reddit.com/r/uwaterloo/comments/1ij9rs1/i_wish_there_was_an_actual_road_between_phillip/)
-![[reddit_person_9mo.jpg]]
-*[link](https://www.reddit.com/r/uwaterloo/comments/qywpi7/shortcut_from_lester_to_philip/)*
-![[reddit_person_7y.jpg]]
-[link](https://www.reddit.com/r/uwaterloo/comments/9dvih8/looking_to_band_together_with_students_to_create/) 
+![[reddit_people_collage.jpg]] [1](https://www.reddit.com/r/uwaterloo/comments/1ij9rs1/i_wish_there_was_an_actual_road_between_phillip/) *[2](https://www.reddit.com/r/uwaterloo/comments/qywpi7/shortcut_from_lester_to_philip/)* [3](https://www.reddit.com/r/uwaterloo/comments/9dvih8/looking_to_band_together_with_students_to_create/) 
 And even people who made a creative trapdoor in the fence:
-![[twitter_gif.gif]]
-[tweet](https://x.com/clayhaight/status/1976006195631804765)
+![[twitter_gif.gif]] [tweet](https://x.com/clayhaight/status/1976006195631804765)
 
 And, anecdotally, there have been many more holes in the fence between Lester Street and Phillip Street over the years. I remember when I was in first year (2021-2022), there was a gaping hole in the fence between 247 Lester Street and the Plaza that required you to make a 3ft jump up or down to cross it, and even that one had pretty decent foot traffic at all times of the day, even though it probably saved like 45 seconds of walking time. It's patched now though. The students yearn for this shortcut so bad that we've had holes in the fences across several properties for several years, in an ongoing war against the landlords that keep patching it up. Crazy!
 
@@ -23,20 +16,18 @@ With this knowledge and momentum, I set off to start a political movement to get
 For those that don't go to UWaterloo, or those who do but have only ever lived on Phillip Street, majority of the students that go to UWaterloo live to the east of campus, which is Phillip Street and beyond. 
 
 The main complaint is that for anybody living east of Phillip Street, there is no way to cross Lester to Phillip (or vice versa) without walking all the way north to Columbia St, or south to University Avenue. Admittedly, it's not the longest detour in the world, but considering that Hickory Street is a convenient throughfare for all the streets going east, it's annoying to have a shortcut through everything, just to have to make a detour north or south anyways.
-![[showing_where_people_live.jpg]]
-*Map showing where most of the people that go to campus live, excluding the campus residences themselves*
+![[showing_where_people_live.jpg]] *Map showing where most of the people that go to campus live, excluding the campus residences themselves*
 
 The infamous shortcut that everybody so desires, in an ideal world, looks something like this:
 ![[the_shortcut_we_want.jpg]]
 Essentially an extension of Hickory Street, which already lines up almost exactly with the University of Waterloo transit station, where we have lots of buses, and the Ion light rail train. 
-![[uwaterloo_station.jpg]]
-*Photo of the University of Waterloo bus station, facing east towards Phillip Street*
-![[bus_connections_map.jpg]]
+
 Transit access aside, the thing that most students would relate to the most would just be the amount of time it would save on the walk to campus itself. An example of a journey that some poor math student may make a couple of times a week looks something like this:
 ![[252_albert_to_m3_raw.jpg]]
 But it feels *so* wasteful to walk south onto University Avenue, just to walk back North again when you get to the university. But with the ideal connection between Lester and Phillip it could look something like this:
 ![[252_albert_to_m3_whatif.jpg]]
-This path feels *so* much better to walk, and is undoubtedly more optimal. Using an online distance tracker, this path is about 1200 meters, resulting in roughly 2 minutes and 30 seconds of time savings. Of course that doesn't sound like a lot on paper, but thousands of students make a journey like this a day - those time savings collectively add up! 
+This path feels *so* much better to walk, and is undoubtedly more optimal. Using an online distance tracker, this path is about 1200 meters, resulting in roughly 2 minutes and 30 seconds of time savings.
+More importantly, it just feels bad that this path doesn't exist - having to take what feels like a roundabout way to get to campus, *especially* when Hickory Street already exists, but seems to just *end* before it gets to campus. 
 
 # The movement
 I knew that this was something I wanted, and had proof that this was something other students wanted. So I set out to see if we could make things right on Lester. Unfortunately for me though, I'm just a mechatronics engineering student, and don't know a ton about urban planning.
@@ -45,12 +36,13 @@ So I did what I do best: I asked the experts for help. I ended up talking to:
 2. [Michael Druker](https://bsky.app/profile/did:plc:f6yekxxpke7gyas3d7qeipty), member of Tritag - a Kitchener-Waterloo-Cambridge transit advocacy group
 3. [Ron Ormson](https://www.linkedin.com/in/ron-ormson-37137065/), Commissioner, Planning & Public Works for the City of Waterloo
 4. [Dorothy McCabe](https://www.linkedin.com/in/dorothymccabe/), current Mayor of the City of Waterloo
+
 Through these conversations, I learned that the city actually *does* have a plan to build this shortcut, summarized by this conversation on Reddit:
 ![[reddit_thread_burstingbubble.jpg]]
 [link](https://www.reddit.com/r/uwaterloo/comments/1o1tmyr/comment/nijatp5/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 For reference, WCRI is the company that owns the private property on the East side of Phillip Street that this hypothetical shortcut would pass through. 
-![[WCRI_.jpg]]
-*WCRI's property is highlighted in yellow*
+![[WCRI_.jpg]] *WCRI's property is highlighted in yellow*
+
 This narrative that the city *does* plan on building the shortcut, but is essentially waiting for WCRI to redevelop its townhouses, also came up in my brief conversation with Ron Ormson. In fact, 275 Lester is currently a bare empty lot owned by the city, just waiting to be developed.
 ![[275_Lester.jpg]]And the WCRI townhouses we're waiting to be redeveloped, visible on the other side of this empty lot? Well, that would be the WCRI CCK complex, located at 268 Phillip Street:
 ![[wcri_0.jpg]]

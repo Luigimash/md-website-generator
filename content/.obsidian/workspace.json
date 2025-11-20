@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ad19038daac50d5c",
+        "id": "1df7c1853016462d",
         "type": "tabs",
         "children": [
           {
-            "id": "c9268040a2d72b5b",
+            "id": "63ca839537ff5d92",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -142,16 +142,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "posts/20251117 Building the Lester St to Phillip St Pedestrian Shortcut.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of 20251117 Building the Lester St to Phillip St Pedestrian Shortcut"
+            }
+          },
+          {
+            "id": "60d1fd2a58e87d21",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -166,11 +177,21 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9268040a2d72b5b",
+  "active": "63ca839537ff5d92",
   "lastOpenFiles": [
+    "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/reddit_thread_burstingbubble.jpg",
+    "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/showing_where_people_live.jpg",
+    "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/the_shortcut_we_want.jpg",
+    "Untitled.canvas",
+    "Untitled.base",
+    "posts/20251117 Building the Lester St to Phillip St Pedestrian Shortcut.md",
+    "posts/20250919 things to do in waterloo.md",
+    "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/reddit_people_collage.jpg.0.pdnSave",
+    "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/reddit_people_collage.jpg",
     "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/WCRI_zones.jpg.0.pdnSave",
     "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/WCRI_zones.jpg",
     "wcri_0 1.jpg",
@@ -181,22 +202,16 @@
     "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/WCRI_.jpg.0.pdnSave",
     "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/wcri_.jpg",
     "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/wcri_.jpg.0.pdnSave",
-    "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/reddit_thread_burstingbubble.jpg",
     "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/reddit_thread_burstingbubble.jpg.0.pdnSave",
     "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/bus_connections_map.jpg",
     "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/bus_connections_map.jpg.0.pdnSave",
-    "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/uwaterloo_station.jpg",
     "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/uwaterloo_station.jpg.0.pdnSave",
     "posts/20251111 my breakfast recipe.md",
-    "posts/20250919 things to do in waterloo.md",
     "posts/20241227 exceptional is not sexy.md",
     "posts/20240822 frieren.md",
     "posts/20240214 be kind.md",
     "posts/20231120 love yourself to love others.md",
-    "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/showing_where_people_live.jpg",
     "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/252_albert_to_m3_only1200meters.jpg.0.pdnSave",
-    "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/252_albert_to_m3_whatif.jpg.0.pdnSave",
-    "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/252_albert_to_m3_raw.jpg.0.pdnSave",
     "20251117 Building the Lester St - Phillip St Pedestrian Shortcut.md",
     "posts/20251117 Building the Lester St - Phillip St Pedestrian Shortcut.md",
     "esports.md",
