@@ -18,7 +18,7 @@ last updated: November 11 2025
 building an LED matrix phone case, inspired by ROG Zephyrus G14 2021 \
 hosting events @ Socratica.info
 ## learning 
-passing 3B mechatronics engineering @ uwaterloo
+passing 3B mechatronics engineering @ uwaterloo 
 ## reading
 nothing right now
 [My Goodreads](https://www.goodreads.com/user/show/152629681-jackie-yi)

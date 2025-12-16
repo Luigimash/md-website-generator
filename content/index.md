@@ -2,18 +2,30 @@
 title: home
 ---
 # Hello/Bonjour/你好!
-I'm a University of Waterloo Mechatronics Engineering Student set to graduate around 2027. I climb, tinker with hardware, and work on my interdisciplinary skills. 
+I'm currently:
+- Studying Mechatronics Engineering @ University of Waterloo, Class of 2027.
+- Host at [Socratica](https://socratica.info). Directed the show for Symposium [W24](https://www.youtube.com/watch?v=xQFHZhmiJuA) and [W25](https://www.youtube.com/watch?v=mkJjbCQC_Qs).
+- Looking for internships and work
 
-[blog posts](https://loojy.me/posts/)
-[[books]]
-[[currently]]
-[[esports]]
-[[principles]]
+Used to be a freelance esports broadcast and events generalist. 
 
-Socials:
-[Twitter](https://x.com/looeegee_) 
-[Instagram](https://www.instagram.com/jack.y.e.e/) 
-[YouTube](https://www.youtube.com/@jackieyi769) 
-[LinkedIn](https://www.linkedin.com/in/jackie-yi/) 
-[Portfolio](https://adaptable-pancake-23c.notion.site/Portfolio-Jackie-Yi-0419be4cb1b843c7a908ba647d3dde37?source=copy_link) 
-[Goodreads](https://www.goodreads.com/user/show/152629681-jackie-yi)
+I don't know what I will be doing in the future. There are lots of things I want to do, like build robots that re
+
+If you've never met me, I hope to call you a friend in the near future. 
+
+### Directory:
+> [blog posts](https://loojy.me/posts/)
+> [[books]]
+> [[currently]]
+> [[esports]]
+> [[principles]]
+
+
+I'm always game for a good conversation. Hit me up if you want to chat about anything. 
+### Socials:
+> [Twitter](https://x.com/looeegee_) 
+> [Instagram](https://www.instagram.com/jack.y.e.e/) 
+> [YouTube](https://www.youtube.com/@jackieyi769) 
+> [LinkedIn](https://www.linkedin.com/in/jackie-yi/) 
+> [Portfolio](https://adaptable-pancake-23c.notion.site/Portfolio-Jackie-Yi-0419be4cb1b843c7a908ba647d3dde37?source=copy_link) 
+> [Goodreads](https://www.goodreads.com/user/show/152629681-jackie-yi)
