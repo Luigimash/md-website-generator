@@ -13,12 +13,12 @@ I don't yet know what I will be doing in the future, but I hope you're a part of
 I'm always game for a good conversation. Hit me up if you want to chat about anything. 
 
 ### Directory:
-> [blog posts](https://loojy.me/posts/)
-> [[books]]
-> [[currently]]
-> [[esports]]
+> [Blog posts](https://loojy.me/posts/)
+> [[Books]]
+> [[Currently]]
+> [[Esports]]
 > [Projects](https://adaptable-pancake-23c.notion.site/Portfolio-Jackie-Yi-0419be4cb1b843c7a908ba647d3dde37?source=copy_link) 
-> [[principles]]
+> [[Principles]]
 
 
 ### Socials:
@@ -26,6 +26,5 @@ I'm always game for a good conversation. Hit me up if you want to chat about any
 > [Instagram](https://www.instagram.com/jack.y.e.e/)
 > [YouTube](https://www.youtube.com/@jackieyi769) 
 > [LinkedIn](https://www.linkedin.com/in/jackie-yi/) 
-
 > [Goodreads](https://www.goodreads.com/user/show/152629681-jackie-yi)
-> [Photography Instagram](https://www.instagram.com/loojy.photo/) 
+> [Photography](https://www.instagram.com/loojy.photo/) 
