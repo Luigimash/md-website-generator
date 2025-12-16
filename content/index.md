@@ -17,6 +17,7 @@ I'm always game for a good conversation. Hit me up if you want to chat about any
 > [[books]]
 > [[currently]]
 > [[esports]]
+> [Projects](https://adaptable-pancake-23c.notion.site/Portfolio-Jackie-Yi-0419be4cb1b843c7a908ba647d3dde37?source=copy_link) 
 > [[principles]]
 
 
@@ -25,6 +26,6 @@ I'm always game for a good conversation. Hit me up if you want to chat about any
 > [Instagram](https://www.instagram.com/jack.y.e.e/)
 > [YouTube](https://www.youtube.com/@jackieyi769) 
 > [LinkedIn](https://www.linkedin.com/in/jackie-yi/) 
-> [Portfolio](https://adaptable-pancake-23c.notion.site/Portfolio-Jackie-Yi-0419be4cb1b843c7a908ba647d3dde37?source=copy_link) 
+
 > [Goodreads](https://www.goodreads.com/user/show/152629681-jackie-yi)
 > [Photography Instagram](https://www.instagram.com/loojy.photo/) 
