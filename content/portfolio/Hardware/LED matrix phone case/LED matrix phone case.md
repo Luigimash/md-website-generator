@@ -8,6 +8,8 @@ I basically want to put a very similar type of animated LED display on a phone c
 
 As of right now, it’s designed to fit the iPhone 17 Pro, although the main display board could fit on most iphones - the only thing that needs to be redesigned to fit every individual phone would be the flexible USB adapter board.
 
+
+
 ## November 7 - Update
 
 The PCB boards arrived - pictures are of the main board. I still need to solder the flex USB board before showing how they connect.

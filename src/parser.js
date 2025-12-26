@@ -247,25 +247,25 @@ async function buildImageMap(vaultPath) {
   return imageMap;
 }
 
-export async function copyImages(inputDir, outputDir) {
-  const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp', '.jfif'];
-  const imageFiles = await glob('**/*', { 
+export async function copyFiles(inputDir, outputDir) {
+  const fileExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp', '.jfif', '.pdf'];
+  const allFiles = await glob('**/*', {
     cwd: inputDir,
-    nodir: true 
+    nodir: true
   });
-  
-  const imagesToCopy = imageFiles.filter(file => 
-    imageExtensions.includes(path.extname(file).toLowerCase())
+
+  const filesToCopy = allFiles.filter(file =>
+    fileExtensions.includes(path.extname(file).toLowerCase())
   );
-  
+
   const imagesDir = path.join(outputDir, 'images');
   await fs.ensureDir(imagesDir);
-  
-  for (const imageFile of imagesToCopy) {
-    const sourcePath = path.join(inputDir, imageFile);
-    const destPath = path.join(imagesDir, path.basename(imageFile));
+
+  for (const file of filesToCopy) {
+    const sourcePath = path.join(inputDir, file);
+    const destPath = path.join(imagesDir, path.basename(file));
     await fs.copy(sourcePath, destPath);
   }
-  
-  return imagesToCopy.map(file => path.basename(file));
+
+  return filesToCopy.map(file => path.basename(file));
 }

@@ -1,7 +1,7 @@
 import { glob } from 'glob';
 import fs from 'fs-extra';
 import path from 'path';
-import { parseMarkdownFile, copyImages } from './parser.js';
+import { parseMarkdownFile, copyFiles } from './parser.js';
 import { generatePageTemplate, generateFolderIndexTemplate } from './templates.js';
 import { createBreadcrumbs, createNavigation } from './utils.js';
 
@@ -33,7 +33,7 @@ export async function buildSite(inputDir, outputDir, config) {
     const markdownFiles = filterIgnoredPaths(allMarkdownFiles, config.ignorePaths || []);
     const folderStructure = await buildFolderStructure(inputDir, markdownFiles);
     
-    await copyImages(inputDir, tempDir);
+    await copyFiles(inputDir, tempDir);
     await copyStaticAssets(tempDir);
     
     for (const file of markdownFiles) {
