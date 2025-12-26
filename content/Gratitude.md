@@ -12,4 +12,4 @@ Thank you:
 - Salil, for taking a chance on me 
 - Brandon, for taking on esports with me
 - Bonnie, for living life with me 
-- Hasan, for being inspirational 
+- Hasan, for being an inspirational unit

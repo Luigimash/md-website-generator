@@ -38,7 +38,7 @@ axis: x
 fade: false
 ```
 
-flex display board
+Flex display board
 ```carousel
 folder: portfolio/Hardware/LED matrix phone case/img/Oct31_update/oct31_Carousel_flex
 height: 10rem

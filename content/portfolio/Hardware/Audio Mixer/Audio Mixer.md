@@ -1,3 +1,4 @@
+# Preface
 *I wish to develop an analog audio mixer all-in-one solution that is custom designed with features to handle audio between casters, game, and production crew. Designed specifically for our school’s broadcast scenario, where we have two mic inputs + 2 headphone inputs, which need to be set to a different mix so that they can hear the game without game feeding back to the streaming laptop.*
 
 [[Problem Definition]]
@@ -5,6 +6,7 @@
 [[Components and BOM]]
 
 ---
+# Work
 ![[System Diagram.jpeg]]
 *Initial Whiteboard*
 
@@ -14,3 +16,4 @@
 
 ![[user_interface.jpg]]
 
+I never assembled this project; I mostly used it as an exercise in PCB design, and to work through a hypothetical audio mixer assembly. 

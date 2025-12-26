@@ -14,12 +14,12 @@ I'm always game for a good conversation. Hit me up if you want to chat about any
 
 ### Directory:
 > [Blog posts](https://loojy.me/posts/)
-> [[Books]]
 > [[Currently]]
 > [[Esports]]
-> [Projects](https://adaptable-pancake-23c.notion.site/Portfolio-Jackie-Yi-0419be4cb1b843c7a908ba647d3dde37?source=copy_link) 
+> [[Portfolio Page|Projects]]
 > [[Principles]]
-
+> [Resume](/images/resume_Jan2026.pdf)
+> [[Gratitude]]
 
 ### Socials:
 > [Twitter](https://x.com/looeegee_) 
@@ -28,3 +28,4 @@ I'm always game for a good conversation. Hit me up if you want to chat about any
 > [LinkedIn](https://www.linkedin.com/in/jackie-yi/) 
 > [Goodreads](https://www.goodreads.com/user/show/152629681-jackie-yi)
 > [Photography](https://www.instagram.com/loojy.photo/) 
+> [Github](https://github.com/Luigimash) 

@@ -1,6 +1,8 @@
+# Introduction
 Worked on a cosplay arm for Viktor from Arcane/League of Legends alongside Jenna and Emanuel. Demoed at the W25 Socratica Symposium by Emanuel. I co-designed the mechanical structure, selected parts such as servo motors and lazy susan bearings, and did all of the electrical and firmware design, soldering, and programming.
 
 See the [github](https://github.com/Luigimash/viktor-arm) here for the source files.
+# Results
 ![[eman_wearing_arm.jpg]]
 *Emanuel wearing the arm; demoed at Socratica Symposium W25*
 ![[IMG_5594.JPG.jpg]]

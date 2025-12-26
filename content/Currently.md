@@ -1,4 +1,4 @@
-last updated: November 11 2025
+last updated: December 26 2025
 ## watching
 [Goobie and Doobie](https://www.youtube.com/@GoobieAndDoobie)\
 [Life of Riza](https://www.youtube.com/@LifeOfRiza)\
@@ -20,6 +20,5 @@ hosting events @ Socratica.info
 ## learning 
 passing 3B mechatronics engineering @ uwaterloo 
 ## reading
-There Is No Antimetics Division by qntm
 Breakneck: China's Quest to Engineer the Future by Dan Wang
 [My Goodreads](https://www.goodreads.com/user/show/152629681-jackie-yi)

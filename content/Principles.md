@@ -1,4 +1,4 @@
-I'm still pretty young (turning 21!), but here are some of the life lessons I like to live by:
+At the time of writing, I'm still pretty young (turning 21!), but here are some of the life lessons I like to live by:
 
 ### 1. Habits are a reflection of identity.
 To change your identity is to change your habits, and to change your habits is to change your identity. Based on James Clear's [Atomic Habits](https://jamesclear.com/atomic-habits)
