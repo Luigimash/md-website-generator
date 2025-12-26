@@ -1,0 +1,15 @@
+Thank you:
+- Mom, for raising me
+- Dad, for providing for me 
+- Qiumin, my sister, for dealing with me
+- Charley, my brother, for indulging in nerdy stuff with me 
+- Anna, for being my best friend
+- Tiffy, for growing with me
+- Rebecca, for persevering 
+- Chauvin, for making me laugh till I cryr
+- Michelle, for silly chungus chats
+- Liam, for having an unapologetically different perspective
+- Salil, for taking a chance on me 
+- Brandon, for taking on esports with me
+- Bonnie, for living life with me 
+- Hasan, for being inspirational 
