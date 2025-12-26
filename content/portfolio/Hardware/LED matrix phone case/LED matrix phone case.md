@@ -11,8 +11,12 @@ As of right now, it’s designed to fit the iPhone 17 Pro, although the main dis
 ## November 7 - Update
 
 The PCB boards arrived - pictures are of the main board. I still need to solder the flex USB board before showing how they connect.
-
 ```carousel
+folder: portfolio/Hardware/LED matrix phone case/img/Nov7_update/Nov7_Carousel
+height: 30rem
+SlidesSize: 100%
+axis: x
+fade: false
 ```
 
 I made a mistake with these pads though - I drew them as copper rectangles instead of actual SMD pads, and so I can’t solder anything to them without scratching off the top layer. I hope that this doesn’t ruin anything…
@@ -22,10 +26,24 @@ I made a mistake with these pads though - I drew them as copper rectangles inste
 The electronics for this project are split into two parts: a flexible PCB, which is used to mount the male and female USB receptacles, and the main display board, which is a rigid PCB used to house the main components and the LEDs.
 
 I put in the order on JLCPCB for everything today - now just waiting for it to ship!
-main display board
+
+Main display board
 ```carousel
+folder: portfolio/Hardware/LED matrix phone case/img/Oct31_update/oct31_Carousel_main
+height: 30rem
+SlidesSize: 100%
+axis: x
+fade: false
 ```
 
 flex display board
 ```carousel
+folder: portfolio/Hardware/LED matrix phone case/img/Oct31_update/oct31_Carousel_flex
+height: 10rem
+SlidesSize: 100%
+axis: x
+fade: false
 ```
+
+System schematic
+![[main_display_board_schem_1.0.jpg]]

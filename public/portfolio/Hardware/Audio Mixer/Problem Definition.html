@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Problem Definition - My Site</title>
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <div class="breadcrumb">
+    <a href="/">Home</a> &gt; <span>portfolio\Hardware\Audio Mixer\Problem Definition</span>
+  </div>
+
+  <main>
+    <p>I wish to develop an analog audio mixer all-in-one solution that is custom designed with features for use to manage <strong>caster audio</strong>, ultimately to a USB audio interface. Designed specifically for our school’s broadcast scenario, where we have two mic inputs + 2 headphone inputs, which need to be set to a different mix so that they can hear the game without game feeding back to the streaming laptop.</p>
+<p>Some of the features it will require:</p>
+<ul>
+<li><strong>Individual cough &#x26; talkback buttons</strong> on the mixer, facing the casters
+<ul>
+<li>Can also add I/O screw terminals on the PCB for extended functionality maybe? or maybe a literal two-wire signal port for plugging in extra buttons?</li>
+</ul>
+</li>
+<li><strong>Line outputs for individual microphone inputs,</strong> need to check if these are balanced/differential or if they are stereo
+<ul>
+<li>1/4” jacks, literally a 1:1 feed out</li>
+</ul>
+</li>
+<li><strong>Master, Caster, Director mix outputs</strong>, with digital controls (on/off buttons &#x26; individual gain control) for sending audio from each input channel to each output
+<ul>
+<li>Two 1/4” monitor outputs for both (headphone level, not speaker level)</li>
+</ul>
+</li>
+<li><strong>Four input channels</strong>, two for XLR caster microphones (non condenser) and one for 1/4” TRS balanced (differential) audio input
+<ul>
+<li>All inputs will be considered/assumed to be differential balanced cable audio, mono</li>
+<li>No support for phantom power</li>
+</ul>
+</li>
+<li><strong>Master &#x26; Caster mix volume level LEDs</strong> (everything is assumed mono so one line of LEDs for both)</li>
+<li>Ideally powered by USB-C port, for now can design with barrel jack w/ known power supply but change it to USB-C port + minimum wattage brick later</li>
+<li>Appropriate potentiometers &#x26; faders for controlling volume and gain at every relevant stage
+<ul>
+<li>basically copy the UW mixer setup in terms of pots for pre-amp and faders for mix control</li>
+<li>pots for aux mix, faders for master mix</li>
+<li>only difference, have two output faders, one for master and one for casters</li>
+</ul>
+</li>
+</ul>
+  </main>
+
+  <script src="/carousel.js"></script>
+</body>
+</html>

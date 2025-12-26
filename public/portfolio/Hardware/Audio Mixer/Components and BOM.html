@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Components and BOM - My Site</title>
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <div class="breadcrumb">
+    <a href="/">Home</a> &gt; <span>portfolio\Hardware\Audio Mixer\Components and BOM</span>
+  </div>
+
+  <main>
+    <h3>TL071, TL072, TL074 Op-Amp</h3>
+<ul>
+<li>2.25 - 20V power supply input</li>
+<li><a href="https://www.ti.com/product/TL072H">https://www.ti.com/product/TL072H</a></li>
+<li>TL071, TL072, TL074 is single, dual, quad opamp</li>
+<li>TL07x series is specced for low noise typically (need a source)</li>
+</ul>
+<h3>24V DC Power Supply Brick</h3>
+<ul>
+<li>Converts wall outlet output to 24V DC</li>
+<li>lowkey dont know if I need this high voltage but lets do this for now</li>
+<li><a href="https://www.amazon.ca/Supply-Adapter-100-240V-Security-Upgrade/dp/B0BPLR1N6Y/ref=sr_1_5?keywords=24V%2BPower%2BSupply&#x26;qid=1702174716&#x26;sr=8-5&#x26;th=1">https://www.amazon.ca/Supply-Adapter-100-240V-Security-Upgrade/dp/B0BPLR1N6Y/ref=sr_1_5?keywords=24V%2BPower%2BSupply&#x26;qid=1702174716&#x26;sr=8-5&#x26;th=1</a></li>
+</ul>
+<h3>12V DC-DC Dual Rail Switching</h3>
+<ul>
+<li>i need to find something for this or just steal a schematic online and use it in a hypothetical scenario</li>
+</ul>
+<h3>Dual Gang Potentiometer(?) 1KOhms</h3>
+<ul>
+<li><a href="https://www.mouser.ca/ProductDetail/Alpha-Taiwan/RV122F-20-15F-A1K-0072?qs=8%252Br4Hz5Xir%2FNkfIEtiaRVA%3D%3D">https://www.mouser.ca/ProductDetail/Alpha-Taiwan/RV122F-20-15F-A1K-0072?qs=8%252Br4Hz5Xir%2FNkfIEtiaRVA%3D%3D</a></li>
+<li>5% tolerance for better performance</li>
+<li>used in:
+<ul>
+<li>initial input channel gain
+<ul>
+<li>jk might make initial input channel gain determined by fixed resistors so that it can be sent to line output</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Analog 1:1 IC switch (basically a mute button)</h3>
+<ul>
+<li><a href="https://www.digikey.ca/en/products/detail/texas-instruments/SN74LVC1G66DCKR/484847">https://www.digikey.ca/en/products/detail/texas-instruments/SN74LVC1G66DCKR/484847</a></li>
+<li>its perfect …</li>
+</ul>
+<p><strong>LM3915 - IC for Analog Volume Meter</strong></p>
+<ul>
+<li><a href="https://www.homemade-circuits.com/lm3915-ic-datasheet-pinout-application-circuits/">https://www.homemade-circuits.com/lm3915-ic-datasheet-pinout-application-circuits/</a></li>
+<li><a href="https://www.digikey.ca/en/products/detail/texas-instruments/LM3914V-NOPB/212685">https://www.digikey.ca/en/products/detail/texas-instruments/LM3914V-NOPB/212685</a></li>
+<li>Using a 6.2kohm resistor tying Ref Out to GND because when Ref ADJ = GND, then Ref Out = 1.25V nominal, and 2mA of current is needed per resistor. Appx 10x the current pulled from Ref Out is the current supplied to each LED, so using V=IR with V=1.25V and I=0.2mA we get a 6.2kohm resistor<br>
+<img src="/images/LM3914_screenshot.jpg" alt="LM3914_screenshot.jpg"></li>
+</ul>
+<h3>5K Logarithmic Taper Rotary Potentiometer (gain knobs)</h3>
+<p><a href="https://www.taydaelectronics.com/5k-ohm-logarithmic-taper-potentiometer.html">https://www.taydaelectronics.com/5k-ohm-logarithmic-taper-potentiometer.html</a></p>
+<ul>
+<li>would use Digikey but might as well match the linear pots, plus this is way cheaper, and tolerances don’t matter at all (as far as i know if its 4k or 6k ohms we’ll still be fine lol)</li>
+</ul>
+<h3>5K Logarithmic Taper Slide Potentiometer (audio fader)</h3>
+<p><a href="https://www.taydaelectronics.com/ra6020f-a5k-ohm-logarithmic-taper-slide-potentiometer.html">https://www.taydaelectronics.com/ra6020f-a5k-ohm-logarithmic-taper-slide-potentiometer.html</a></p>
+<ul>
+<li>I wanted a Digikey one but they’re all linear taper for some reason lol</li>
+</ul>
+<h3>Female XLR PCB mount receptacle</h3>
+<ul>
+<li><a href="https://www.neutrik.com/en/product/nc3faav1">Datasheets</a></li>
+<li><a href="https://www.mouser.ca/ProductDetail/Neutrik/NC3FAAV1?qs=jCymNF74TgWOIsVH73GEhA%3D%3D">Purchase</a></li>
+</ul>
+<h3>Female 1/4” PCB Mount receptacle</h3>
+<ul>
+<li><a href="https://www.neutrik.com/en/product/nj3fd-v">Datasheets</a></li>
+<li><a href="https://www.mouser.ca/ProductDetail/Neutrik/NJ3FD-V?qs=JfNPhaIww3IZW5co%2FIYJ8A%3D%3D">Purchase</a></li>
+</ul>
+<h3>Green, Yellow, Red, LED 10 packs each</h3>
+<ul>
+<li><a href="https://www.pishop.ca/product/diffused-green-5mm-led-10-pack/">Green</a></li>
+<li><a href="https://www.pishop.ca/product/diffused-yellow-5mm-led-10-pack/">Yellow</a></li>
+<li><a href="https://www.pishop.ca/product/diffused-red-5mm-led-10-pack/">Red</a></li>
+</ul>
+<h3>5V 2A Power Supply brick w/ standard 2.1mm jack</h3>
+<p><a href="https://www.pishop.ca/product/5v-2a-2000ma-switching-power-supply-ul-listed-2/">https://www.pishop.ca/product/5v-2a-2000ma-switching-power-supply-ul-listed-2/</a></p>
+<ul>
+<li>corresponding barrel jack <a href="https://www.mouser.ca/ProductDetail/Gravitech/CON-SOCJ-2155?qs=fkzBJ5HM%252BdCcpvFQyQZHtA%3D%3D">https://www.mouser.ca/ProductDetail/Gravitech/CON-SOCJ-2155?qs=fkzBJ5HM%252BdCcpvFQyQZHtA%3D%3D</a></li>
+<li>might need to change to 9v</li>
+</ul>
+<h3>2200uf capacitor for low pass filtering the PSU input</h3>
+<p><a href="https://www.digikey.ca/en/products/detail/rubycon/10PX2200MEFC10X16/3133988">https://www.digikey.ca/en/products/detail/rubycon/10PX2200MEFC10X16/3133988</a></p>
+<h3>Latching On-Off Logic Switch SPST</h3>
+<p><a href="https://www.digikey.ca/en/products/detail/carling-technologies/110-P/696604">https://www.digikey.ca/en/products/detail/carling-technologies/110-P/696604</a></p>
+<h3>AC-DC Switching Power Supply Board Module AC110V 220V 230V to DC ±5V ±12V ±15V</h3>
+<p><a href="https://www.ebay.ca/itm/263196999929?mkcid=16&#x26;mkevt=1&#x26;mkrid=711-127632-2357-0&#x26;ssspo=qbAJ5icsSjG&#x26;sssrc=2047675&#x26;ssuid=&#x26;var=564896020399&#x26;widget_ver=artemis&#x26;media=COPY">https://www.ebay.ca/itm/263196999929?mkcid=16&#x26;mkevt=1&#x26;mkrid=711-127632-2357-0&#x26;ssspo=qbAJ5icsSjG&#x26;sssrc=2047675&#x26;ssuid=&#x26;var=564896020399&#x26;widget_ver=artemis&#x26;media=COPY</a></p>
+<p>based from this video <a href="https://www.youtube.com/watch?v=4tDdUWh36bQ">https://www.youtube.com/watch?v=4tDdUWh36bQ</a></p>
+  </main>
+
+  <script src="/carousel.js"></script>
+</body>
+</html>

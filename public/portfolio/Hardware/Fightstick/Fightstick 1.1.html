@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Preface - My Site</title>
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <div class="breadcrumb">
+    <a href="/">Home</a> &gt; <span>portfolio\Hardware\Fightstick\Fightstick 1.1</span>
+  </div>
+
+  <main>
+    <p><em>11/11/2022</em><br>
+<a href="https://drive.google.com/drive/folders/122WDxHj3_nzSkCOFwjWe3CRs9EElJEt7">Project files hosted here</a><br>
+<img src="/images/Finished%20Product_1.1.jpg" alt="Finished Product_1.1.jpg"></p>
+<h1>Preface</h1>
+<p>A Fightstick, also known as an Arcade stick, is a video game controller, designed for fighting games such as Street Fighter or Tekken. It typically features a joystick alongside 6 or more buttons for attacks.<br>
+<img src="/images/Mayflash%20F500.jpg" alt="Mayflash F500.jpg"><br>
+<em>What a typical arcade fightstick looks like. Pictured is the Mayflash F500</em></p>
+<p>I decided to take the challenge of designing and building my own fight stick, dubbed the Fightstick project. However, I wanted to focus on creating a <strong>portable, minimalist</strong> design, so I spent much of the planning process figuring out ways to reduce the size of the fightstick. Notable design choices include:</p>
+<ul>
+<li>Using low-profile mechanical keyboard switches (Kailh Chocs) instead of standard Arcade-style buttons, which are typically thicker
+<ul>
+<li>Using mechanical keyboard switches are best used on a PCB, so I had to design a custom keyboard PCB to mount the switches to</li>
+</ul>
+</li>
+<li>Laser cutting a custom acrylic case to hold all the components at the desired dimensions</li>
+<li>Using four buttons instead of a joystick, since a joystick sticks upwards out of the case, making it more difficult to carry</li>
+<li>Soldering as many connections as possible, instead of using pin and header connections which take up more space</li>
+</ul>
+<p><img src="/images/PCB%20in%20Case.jpg" alt="PCB in Case.jpg"><br>
+<em>Pre-solder PCB in case)</em><br>
+<img src="/images/Postsolder_Image.jpg" alt="Postsolder_Image.jpg"><br>
+<em>Fully soldered PCB)</em></p>
+<h3>Tools and parts used</h3>
+<ul>
+<li>4-40 Screws, nuts, standoffs</li>
+<li>4.5mm Acrylic Sheets</li>
+<li>AutoCAD (Laser cut case design)</li>
+<li>KiCAD (PCB design)</li>
+<li>Solidworks (Keycap design)</li>
+<li><a href="https://www.amazon.ca/Brook-Universal-Fighting-Compatible-preinstalled/dp/B08H1TCFB1/ref=sr_1_5?keywords=brook+universal+fighting+board&#x26;qid=1665499450&#x26;qu=eyJxc2MiOiIyLjM3IiwicXNhIjoiMS4zOSIsInFzcCI6IjAuOTkifQ%3D%3D&#x26;sprefix=brook+univer%2Caps%2C112&#x26;sr=8-5">Brook™ Universal Fighting Board</a></li>
+<li><a href="https://mkultra.click/choc-switches">Kailh Choc Mechanical Keyboard Switches (red)</a></li>
+<li>Soldering tools, wires</li>
+<li>3D Printer (Keycaps)</li>
+</ul>
+<h3>Mistakes and Lessons</h3>
+<p>In the process of doing this project, I have made several errors and learned much about electrical and product design. Errors include:</p>
+<ol>
+<li>Printing the PCB with the wrong footprint
+<ul>
+<li>My first version of the keyboard PCB used the Cherry MX switch footprints, which were different than the Kailh choc switches I had. Thus I had to redesign and reorder the PCB with the correct Kailh footprints</li>
+<li>I learned that I need to do a better job of double and triple checking compatibility before I commit to a design</li>
+</ul>
+</li>
+<li>Deciding a USB receptacle was faulty, when in reality the USB-C cable protocol was causing issues
+<ul>
+<li>Upon soldering all my connections, I realized that plugging in my fightstick into my computer via USB A-C cable did not work at all. I labeled it as due to a faulty USB receptacle, and sought a replacement.</li>
+<li>However, upon replacing the USB receptacle, the issue still persisted, which led me to dig a little deeper. I eventually realized that the USB-C signal protocol is much more complex compared to USB 2.0, and it was likely causing my fightstick to not work.</li>
+<li>Upon resoldering all the appropriate connections to a new board, using a USB A-A cable resolved the issue.</li>
+<li>I learned that, whenever possible, keeping consistent supplies and equipment used on my project will reduce the risk of random issues or unknown details from affecting its function. If I was using a USB A-A cable from the start, I would have removed another potential point of failure from the project, as I can be sure the USB A-A cable behaves like a wire between my PC and the fightstick.</li>
+</ul>
+</li>
+</ol>
+<p><img src="/images/fightstick_schematic.jpeg" alt="fightstick_schematic.jpeg"><br>
+<em>Original planning schematic/drawing</em></p>
+<p><img src="/images/fightstick_11.jpg" alt="fightstick_11.jpg"><br>
+<em>KiCAD PCB</em></p>
+  </main>
+
+  <script src="/carousel.js"></script>
+</body>
+</html>

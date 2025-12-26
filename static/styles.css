@@ -174,8 +174,7 @@ audio {
   width: 100%;
   margin: 20px auto;
   overflow: hidden;
-  border: 1px solid #000000;
-  background-color: #f0f0f0;
+  background-color: transparent;
 }
 
 .carousel-viewport {
@@ -215,8 +214,8 @@ audio {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #ffffff;
-  border: 1px solid #000000;
+  background-color: transparent;
+  border: none;
   color: #000000;
   font-size: 18px;
   font-weight: bold;
@@ -224,6 +223,8 @@ audio {
   cursor: pointer;
   z-index: 10;
   user-select: none;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+  text-stroke: 1px rgba(255, 255, 255, 0.6);
 }
 
 .carousel-prev:hover,

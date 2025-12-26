@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lectures and Learning Resources - My Site</title>
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <div class="breadcrumb">
+    <a href="/">Home</a> &gt; <span>portfolio\Hardware\Audio Mixer\Lectures and Learning Resources</span>
+  </div>
+
+  <main>
+    <p><strong>Passive Signal Summing/Mixing, Using Only Resistors (ECE Design Fundamentals, Georgia Tech course)</strong> <a href="https://www.youtube.com/watch?v=vbr4XbAhlnQ">https://www.youtube.com/watch?v=vbr4XbAhlnQ</a></p>
+<ul>
+<li>explains a bunch of reasons why generic resistors are super dog shit for designing a mixer, mostly because each resistor on each signal will influence the gain of every other signal, no independent control</li>
+</ul>
+<p><strong>Active Signal Summing/Mixing, Using Op Amps in Inverting Configurations (ECE Design Fundamentals)</strong> <a href="https://www.youtube.com/watch?v=k4B43nhb91I">https://www.youtube.com/watch?v=k4B43nhb91I</a></p>
+<ul>
+<li>
+<p>use OpAmps to mix analog signals together, describes the inverting configuration in this case</p>
+</li>
+<li>
+<p>gives you independent control of the gain of each signal through its own resistor (can adjust the gain of signal V1 by changing only resistor R1, and can change the gain of the whole opamp by changing Rf)</p>
+</li>
+<li>
+<p>dont forget your opamps should have super high gain (ideally infinite) so that the feedback works properly, the actual “gain” you get is by feedback not by inherent opamp characteristics</p>
+</li>
+<li>
+<p>use a differential op amp to convert differential signals into single ended signals ?</p>
+</li>
+</ul>
+<p><strong>Convert Single Ended signal into Differential Signal</strong> <a href="https://www.diyaudio.com/community/threads/how-to-convert-single-ended-audio-signal-into-differential-signal-single-power-supply.385108/#post-6995371">https://www.diyaudio.com/community/threads/how-to-convert-single-ended-audio-signal-into-differential-signal-single-power-supply.385108/#post-6995371</a></p>
+<p><strong>Muting a Circuit (more complicated than you think)</strong></p>
+<p><a href="https://sound-au.com/articles/muting.html">https://sound-au.com/articles/muting.html</a></p>
+<ul>
+<li>remember that when using something like a transistor that the transistor is effectively a diode, and audio signals fluctuate between positive and negative, so you need dual MOSFETS</li>
+<li>Optocoupler Transistor</li>
+</ul>
+<h3>Gain levels (dB, dBu, dBV)</h3>
+<p><a href="https://support.biamp.com/General/Audio/Gain_structure%3A_input_and_output_levels">https://support.biamp.com/General/Audio/Gain_structure%3A_input_and_output_levels</a></p>
+<p><a href="https://service.shure.com/s/article/mic-level-and-line-level-what-do-they-mean?language=en_US">https://service.shure.com/s/article/mic-level-and-line-level-what-do-they-mean?language=en_US</a></p>
+<ul>
+<li>mostly want to operate in “line level” signals (0dBU = ~0.775V)
+<ul>
+<li>then -10dB can be considered “quieter”, -50dB can be considered a “mute”, and +10dBU (2.4495V) can be the upper limit</li>
+</ul>
+</li>
+<li>Speaker level outputs operate where 0dB ~= +10dBU (2.4495V)</li>
+<li>Line Out is usually set so that it is not adjustable, and it is configured to naturally output the full, loud signal
+<ul>
+<li>High source impedance (1k-10k ohms)</li>
+</ul>
+</li>
+<li>Headphone Out is usually adjustable (lol), and has low source impedance (10-500 ohms), in exchange for being able to drive more current
+<ul>
+<li>Low source impedance usually means more noise and distortion, but sampling for headphones typically demands more current (needs power for the drivers) so this is just what happens</li>
+<li>seems to be that headphones otherwise can operate at line out level, just add sufficient support for potential amplification</li>
+</ul>
+</li>
+<li>Mic level is -60dBV to -40dBV, around 0.001 volts to 0.01 volts. <a href="https://www.shure.com/en-MEA/conferencing-meetings/ignite/tell-me-about-mic-and-line-level">https://www.shure.com/en-MEA/conferencing-meetings/ignite/tell-me-about-mic-and-line-level</a>
+<ul>
+<li>this translates to about -58dbU to -38 dbU, they’re pretty similar units</li>
+</ul>
+</li>
+<li>for mic level (xlr), want a potential gain of 0.001 volts (60dbv) to ~1v (1000x gain) by the end output (lowest mic level to highest line level output)</li>
+<li>for line-level sampling from an xlr input, have gain such that -40dBV is raised to 10dBV (~10^5x gain) (peak mic input → peak line output)</li>
+<li>for line-level sampling from a 1/4” input just assume the 1/4” input is line level dBV</li>
+</ul>
+<p><strong>LM3914/LM3915 - IC for Analog Volume Meter</strong></p>
+<ul>
+<li><a href="https://www.homemade-circuits.com/lm3915-ic-datasheet-pinout-application-circuits/">https://www.homemade-circuits.com/lm3915-ic-datasheet-pinout-application-circuits/</a></li>
+<li><a href="https://www.digikey.ca/en/products/detail/texas-instruments/LM3914V-NOPB/212685">https://www.digikey.ca/en/products/detail/texas-instruments/LM3914V-NOPB/212685</a></li>
+</ul>
+<h3>Grounding power gnd and signal gnd</h3>
+<p><a href="https://www.analog.com/en/analog-dialogue/articles/staying-well-grounded.html">https://www.analog.com/en/analog-dialogue/articles/staying-well-grounded.html</a></p>
+<ul>
+<li>Have a separate power ground and analog signal ground</li>
+<li>Have the power and signal ground connect at a “star point”, ideally close to the power supply and far away from analog components<br>
+<img src="/images/ltc3863_datasheet_snippet.jpg" alt="ltc3863_datasheet_snippet.jpg"><br>
+<em>Another snippet supporting having differing ground planes - from LTC3863 datasheet</em></li>
+</ul>
+<h3>Turn a Buck IC into an Inverting Buck Boost to generate a negative voltage rail</h3>
+<p><img src="/images/Buck_IC_negative_voltage_rail.jpg" alt="Buck_IC_negative_voltage_rail.jpg"></p>
+<ul>
+<li><a href="https://www.ti.com/lit/an/snva856b/snva856b.pdf?ts=1702796017763">https://www.ti.com/lit/an/snva856b/snva856b.pdf?ts=1702796017763</a></li>
+<li><a href="https://oxeltech.de/en/your-guide-to-designing-inverting-dual-rail-supply/#Methods_to_Generate_Dual_or_Negative_Supply">https://oxeltech.de/en/your-guide-to-designing-inverting-dual-rail-supply/#Methods_to_Generate_Dual_or_Negative_Supply</a><br>
+<img src="/images/vout_over_vin.jpg" alt="vout_over_vin.jpg"></li>
+</ul>
+<h3>VAC → +-10VDC converter circuit (external brick)</h3>
+<p><a href="https://youtu.be/_iUllCDSQF0?si=iS1Q-OvgUB2lE95u&#x26;t=626">https://youtu.be/_iUllCDSQF0?si=iS1Q-OvgUB2lE95u&#x26;t=626</a></p>
+  </main>
+
+  <script src="/carousel.js"></script>
+</body>
+</html>
