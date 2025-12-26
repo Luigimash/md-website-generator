@@ -11,10 +11,12 @@ export function generatePageTemplate({ title, content, breadcrumbs, navigation, 
   <div class="breadcrumb">
     ${breadcrumbs}
   </div>
-  
+
   <main>
     ${content}
   </main>
+
+  <script src="/carousel.js"></script>
 </body>
 </html>`;
 }
@@ -41,13 +43,15 @@ export function generateFolderIndexTemplate({ title, folderName, items, breadcru
   <div class="breadcrumb">
     ${breadcrumbs}
   </div>
-  
+
   <main>
     <h1>${folderName}</h1>
     <ul>
       ${itemsList}
     </ul>
   </main>
+
+  <script src="/carousel.js"></script>
 </body>
 </html>`;
 }

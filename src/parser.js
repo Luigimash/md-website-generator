@@ -81,8 +81,12 @@ function extractTitleFromContent(content) {
 
 async function preprocessObsidianSyntax(content, vaultPath) {
   const imageMap = await buildImageMap(vaultPath);
-  
-  const processedContent = content.replace(/!\[\[([^\]]+)\]\]/g, (match, imageName) => {
+
+  // Process carousel code blocks first
+  let processedContent = await processCarouselBlocks(content, vaultPath, imageMap);
+
+  // Then process image embeds
+  processedContent = processedContent.replace(/!\[\[([^\]]+)\]\]/g, (match, imageName) => {
     const imageFileName = imageMap[imageName];
     if (imageFileName) {
       const encodedFileName = encodeURIComponent(imageFileName);
@@ -90,8 +94,135 @@ async function preprocessObsidianSyntax(content, vaultPath) {
     }
     return match;
   });
-  
+
   return processedContent;
+}
+
+async function processCarouselBlocks(content, vaultPath, imageMap) {
+  const carouselRegex = /```carousel\s*\n([\s\S]*?)```/g;
+  let match;
+  let processedContent = content;
+  let carouselId = 0;
+
+  while ((match = carouselRegex.exec(content)) !== null) {
+    const configText = match[1];
+    const config = parseCarouselConfig(configText);
+    const images = await resolveCarouselImages(config, vaultPath, imageMap);
+    const carouselHtml = generateCarouselHtml(images, config, carouselId++);
+    processedContent = processedContent.replace(match[0], carouselHtml);
+  }
+
+  return processedContent;
+}
+
+function parseCarouselConfig(configText) {
+  const config = {
+    folder: null,
+    images: [],
+    height: '25rem',
+    loop: false,
+    direction: 'ltr',
+    slidessize: '100%',
+    slidesToScroll: 'auto',
+    dragfree: false,
+    align: 'center',
+    axis: 'x',
+    autoplay: false,
+    autoscroll: false,
+    fade: false,
+    arrowbutton: true
+  };
+
+  const lines = configText.split('\n').filter(line => line.trim());
+  for (const line of lines) {
+    const colonIndex = line.indexOf(':');
+    if (colonIndex > 0) {
+      const key = line.slice(0, colonIndex).trim().toLowerCase();
+      let value = line.slice(colonIndex + 1).trim();
+
+      // Remove quotes if present
+      value = value.replace(/^["']|["']$/g, '');
+
+      // Parse boolean values
+      if (value === 'true') value = true;
+      else if (value === 'false') value = false;
+
+      // Handle special cases
+      if (key === 'images') {
+        config.images = value.split(',').map(img => img.trim());
+      } else if (key in config) {
+        config[key] = value;
+      }
+    }
+  }
+
+  return config;
+}
+
+async function resolveCarouselImages(config, vaultPath, imageMap) {
+  const images = [];
+
+  // If specific images are listed, use those
+  if (config.images && config.images.length > 0) {
+    for (const imageName of config.images) {
+      const imageFileName = imageMap[imageName];
+      if (imageFileName) {
+        const encodedFileName = encodeURIComponent(imageFileName);
+        images.push(`/images/${encodedFileName}`);
+      }
+    }
+  }
+
+  // If folder is specified, get all images from that folder
+  if (config.folder) {
+    const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp', '.jfif'];
+    const folderPath = path.join(vaultPath, config.folder);
+
+    if (await fs.pathExists(folderPath)) {
+      const files = await fs.readdir(folderPath);
+      for (const file of files) {
+        if (imageExtensions.includes(path.extname(file).toLowerCase())) {
+          const encodedFileName = encodeURIComponent(file);
+          images.push(`/images/${encodedFileName}`);
+        }
+      }
+    }
+  }
+
+  return images;
+}
+
+function generateCarouselHtml(images, config, carouselId) {
+  if (images.length === 0) {
+    return '<div class="carousel-error">No images found for carousel</div>';
+  }
+
+  const carouselClass = `carousel-${carouselId}`;
+  const slideElements = images.map(imgSrc =>
+    `<div class="carousel-slide" style="flex: 0 0 ${config.slidessize}"><img src="${imgSrc}" alt="Carousel image"></div>`
+  ).join('\n    ');
+
+  const arrowButtons = config.arrowbutton ? `
+    <button class="carousel-prev" aria-label="Previous slide">&lt;</button>
+    <button class="carousel-next" aria-label="Next slide">&gt;</button>` : '';
+
+  return `<div class="carousel-container ${carouselClass}"
+    data-loop="${config.loop}"
+    data-direction="${config.direction}"
+    data-slides-to-scroll="${config.slidesToScroll}"
+    data-dragfree="${config.dragfree}"
+    data-align="${config.align}"
+    data-axis="${config.axis}"
+    data-autoplay="${config.autoplay}"
+    data-autoscroll="${config.autoscroll}"
+    data-fade="${config.fade}"
+    style="height: ${config.height}">
+  <div class="carousel-viewport">
+    <div class="carousel-track">
+      ${slideElements}
+    </div>
+  </div>${arrowButtons}
+</div>`;
 }
 
 async function buildImageMap(vaultPath) {
