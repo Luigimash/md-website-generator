@@ -6,10 +6,14 @@ Thank you:
 - Anna, for being my best friend
 - Tiffy, for growing with me
 - Rebecca, for persevering 
-- Chauvin, for making me laugh till I cryr
+- Chauvin, for making me laugh till I cry
 - Michelle, for silly chungus chats
-- Liam, for having an unapologetically different perspective
+- Liam, for making me think
 - Salil, for taking a chance on me 
 - Brandon, for taking on esports with me
 - Bonnie, for living life with me 
 - Hasan, for being an inspirational unit
+- Vivian, for exploring identity with me
+- Emiree, for taking a chance on me
+- Josh, for taking a chance on me
+- Quach, for setting an example for me
