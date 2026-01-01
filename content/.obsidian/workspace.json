@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gratitude.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gratitude"
+              "title": "index"
             }
           }
         ]
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,8 +182,15 @@
   },
   "active": "5923d997c4e56939",
   "lastOpenFiles": [
-    "Books.md",
+    "Gratitude.md",
     "index.md",
+    "Esports.md",
+    "Currently.md",
+    "posts/20251111 my breakfast recipe.md",
+    "posts/20250919 things to do in waterloo.md",
+    "posts/20251117 Building the Lester St to Phillip St Pedestrian Shortcut.md",
+    "Open Source Notes.md",
+    "Books.md",
     "Principles.md",
     "portfolio/Portfolio Page.md",
     "portfolio/Software/EWB Waturbine Matlab/EWB Waturbine Matlab Script.md",
@@ -195,9 +201,6 @@
     "portfolio/Hardware/Audio Mixer/Problem Definition.md",
     "portfolio/Hardware/Custom Macropad/Custom Macropad.md",
     "portfolio/Hardware/LED matrix phone case/LED matrix phone case.md",
-    "Gratitude.md",
-    "Esports.md",
-    "Currently.md",
     "archive/20251203.md",
     "archive/League of Legends article.md",
     "archive/shows.md",
@@ -225,10 +228,6 @@
     "portfolio/Software/EWB Waturbine Matlab/img/bisect_carousel",
     "portfolio/Software/EWB Waturbine Matlab/img/og_blade_carousel/Untitled",
     "portfolio/Software/EWB Waturbine Matlab/img/og_blade_carousel",
-    "portfolio/Software/Customizable CSS Injection for Draftlol.md",
-    "portfolio/Hardware/Audio Mixer/Plate Design.md",
-    "portfolio/Hardware/Audio Mixer/Lectures and Learning Resources.md",
-    "portfolio/Broadcast Work/Showlist.md",
-    "portfolio/Broadcast Work/Socratica Symposium.md"
+    "portfolio/Software/Customizable CSS Injection for Draftlol.md"
   ]
 }

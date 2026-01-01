@@ -1,8 +1,8 @@
 ---
 title: home
 ---
-# Hello/Bonjour/你好!
-I'm currently:
+# Home
+My name is Jackie Yi. I'm currently:
 - Studying Mechatronics Engineering @ University of Waterloo, Class of 2027.
 - Host at [Socratica](https://socratica.info). Directed the show for Symposium [W24](https://www.youtube.com/watch?v=xQFHZhmiJuA) and [W25](https://www.youtube.com/watch?v=mkJjbCQC_Qs).
 
