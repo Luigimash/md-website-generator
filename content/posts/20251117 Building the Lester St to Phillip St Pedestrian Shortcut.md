@@ -1,4 +1,4 @@
-*Last edited November 20, 2025*
+*Last edited January 17, 2026*
 # The people want a shortcut
 An unspoken piece of infrastructure that most of the students at UWaterloo secretly want is a direct shortcut from Lester Street to Phillip Street, ideally close to the Hickory Street connection. 
 
@@ -58,19 +58,17 @@ For reference, WCRI is the company that owns the private property on the East si
 This narrative that the city *does* plan on building the shortcut, but is essentially waiting for WCRI to redevelop its townhouses, also came up in my brief conversation with Ron Ormson. In fact, 275 Lester is currently a bare empty lot owned by the city, just waiting to be developed.
 ![[275_Lester.jpg]]And the WCRI townhouses we're waiting to be redeveloped, visible on the other side of this empty lot? Well, that would be the WCRI CCK complex, located at 268 Phillip Street:
 ![[wcri_0.jpg]]
-Completed in 1986 [1](https://web.archive.org/web/19991007220516/http://www.wcri.org/history.htm#:~:text=which%20was%20completed%20in%20September%20of%20that%20year%2E)[2](https://en.wikipedia.org/wiki/Waterloo_Co%E2%80%91operative_Residence_Inc.), this complex is around **39 years old** as of today, so its certainly done its time.  
+Completed in 1986 [1](https://web.archive.org/web/19991007220516/http://www.wcri.org/history.htm#:~:text=which%20was%20completed%20in%20September%20of%20that%20year%2E), [2](https://en.wikipedia.org/wiki/Waterloo_Co%E2%80%91operative_Residence_Inc.), this complex is around **39 years old** as of today, so its certainly done its time.  
 ![[WCRI_zones.jpg]]
-The nice thing about WCRI is they *are* a nonprofit housing co-op, meaning that they are likely to support (and also, I suppose, legally obliged to) building the shortcut between Lester St and Phillip, but it would be a really tough sell to tell them to redevelop *sooner* just to get this shortcut built. It seems like it's largely up to WCRI management to decide when they want to redevelop their buildings, and we just have to sit and watch until they do. 
+The nice thing about WCRI is they *are* a nonprofit housing co-op, meaning that they are likely to support building the shortcut between Lester St and Phillip. Either way, they will be *legally obliged* to build it, but only whenever they actually redevelop, which could be *decades* away. 
 
 I suppose with enough political will, we could petition the municipal government and other stakeholders to finance WCRI's redevelopment to accelerate it. But I think that's a hard sell to justify putting money into tearing down perfectly good midrise housing just to shave some minutes off of everyone's commute to campus. Given the amount of housing growth in the region, WCRI will probably eventually redevelop the land into higher density housing in the future anyways.
 
-From the government's POV, it would be giving WCRI extra money for little tangible upside, and from WCRI's perspective, we'd be asking them to reap less reward from their original investment into building the CCK complex.
-
-I also just personally don't feel like bothering a company that, frankly, is doing thousands of students in the region a favor by offering cheap and affordable housing, with yet another selfish request that doesn't benefit them.
+I also just personally don't feel like bothering a housing co-op that, frankly, is doing thousands of students in the region a favor by offering cheap and affordable housing, with yet another selfish request that doesn't benefit them.
  
 So, I decided to **not** push further to get this built, but I felt like I should at least share what I've learned so that anybody curious about this issue after me can get caught up on the situation. 
 
-# Edit: Extra information
+# Extra historical information
 The neighbourhood encompassing Phillip St and Lester St, going eastward until King Street, and bounded on the north and south by Columbia St W and University Ave respectively, is known as the **Northdale** neighbourhood, and is a subsection of [Ward 6](https://www.waterloo.ca/en/government/city-council.aspx#Find-what-ward-you-live-in-and-your-councillor-information). 
 
 The specific plan to build a shortcut connecting Lester Street and Phillip Street was actually laid out in a [Northdale Land Use and Community Improvement Plan Study](https://www.waterloo.ca/en/government/resources/Documents/Cityadministration/Northdale/2012-Final-report.pdf) from 2012 (thanks Michael for pointing this out to me), and contains some pretty relevant information from pages 50-53:
@@ -93,7 +91,7 @@ Just an extra nail in the coffin on the fact that the timeline on this pathway i
 I hope I get to speak to Jeff Henry about this proposal, and why the shortcut path isn't built yet, some time in the future. It sounded like his hope was to have Hickory Street extended to the University of Waterloo transit station itself, not just a pedestrian shortcut, so it's interesting to see us get neither. 
 
 # Edit: A bandaid solution? 
-*written November 20, 2025*
+*Updated November 20, 2025*
 My friend Shaan made a suggestion for a temporary path that seems like a somewhat feasible temporary solution:
 ![[shaan_1.jpg]] ![[shaan_2.jpg]]
 
@@ -102,14 +100,37 @@ This would make use of the empty lot at 275 Lester street, and would require bui
 I'm not sure if this is even legal to build, as it would build the path pretty close to the backside of the CCK complex, and the band of land separating the two parking lots where we would build the "sidewalk" might not be wide enough to support the volume of students that would use it every day. 
 
 I might do some asking around to see how feasible this is, but my gut is that it's pretty improbable, especially given how disruptive it would be to the residents of the CCK. 
+
+# Edit 2: WCRI Statement
+*Updated January 17, 2026*
+The WCRI board members are quite elusive and hard to find; it took me several months to finally get in contact with one person with experience being on the board, who will remain anonymous. I will quote their words:
+> The walkway was in talks for more than a decade, the reason it was not pursued was that it was a legal liability for WCRI and the owner of the condos adjacent to this walkway.  
+> 
+> These parties will be responsible for the clearing of this pathway at all times and it was an undue additional cost that our cash strapped WCRI cooperative could not take on. If we were sued, the entire cooperative will go under.
+> 
+> It was an additional legal and financial liability that the parties adjacent to this proposed walkway would not undertake.
+> 
+> Anyone who enters into the WCRI property should be residents and guests of WCRI only, we cannot afford the public to be injured thru slips and falls on the property
+> 
+> Hope you understand our financial and legal limitations.
+> ...
+> Unless a piece of land is municipal property, all adjacent lands are responsible for clearing ice and snow on walkways for anyone who walks on those paths
+> 
+> ... but we do our best to serve our student members to the best of our abilities and that priority is to keep the cooperative financially viable and provide the most economical and quality housing for our residents. we have 1300 who rely on us for housing
+> ...
+> We understand your frustration fully, it's been a problem for decades
+
+From this, I can gather that, for the most part, WCRI's position is that they would love to support this path, but it presents a humongous legal and financial burden that could jeopardize the whole cooperative. They're not exactly rolling around in cash, and if someone slips on the path because it wasn't cleared and sues the cooperative, they could go under entirely. 
+
+But, they are overall empathetic to the situation, and, from what I would gather, wouldn't mind working with the city to get it built if they could be insured from liability and harm. But legally, that would most likely require them to transfer ownership of the path land to the city so they can be liable, which has its own questions and concerns. I wonder if some further agreement can be brokered between the city and WCRI to make this happen.
+
 # Conclusion
 - The city owns a plot of land, 275 Lester Street, that is completely empty, and waiting to be developed into a "park" that will act as the connection between Lester St and Phillip St. It's intended to be connected to Phillip St via the land currently being used by the WCRI CCK complex.
 - The park will be built whenever WCRI redevelops the CCK complex, which they will have to do eventually because it's already 39 years old. The problem is that the timeline on redeveloping could be as long as another couple decades.
 - This isn't an issue that the City isn't aware of - in 2012 we see talks about extending Hickory Street to Phillip; it's likely that the city has been meaning to do something about this connection for longer than that 
-- WCRI seems to really dislike the idea of building this connection, and so might actually be adversarial in its construction. 
+- WCRI is overall empathetic to the student's position for wanting the path, but its existence would impose a very significant liability risk to the WCRI, which would threaten their business model, and thus the affordable housing supply for over 1300 students. 
 
-Overall, I'm glad the city is aware of the situation and has a plan put forth to build what the students, who are ultimately the residents, want. It just sucks that the timeline is so long, and completely in the hands of the private property owners. 
+Overall, I'm glad the city is aware of the situation and has a plan put forth to build what the students, who are ultimately the residents, want. I'm also glad that I was right about WCRI being on our side about it. But this is all a tricky situation of the buildings are already there, it would cost a lot of money to redevelop, and a bandaid solution imposes significant risk that a housing cooperative would have a hard time supporting.
 
 Thank you for reading - I hope this was informative for somebody. Feel free to shoot me a message on LinkedIn or X or something if you want to talk more about this situation. 
-
 

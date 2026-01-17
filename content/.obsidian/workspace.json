@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "posts/20251117 Building the Lester St to Phillip St Pedestrian Shortcut.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "20251117 Building the Lester St to Phillip St Pedestrian Shortcut"
             }
           }
         ]
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,16 +183,17 @@
   },
   "active": "5923d997c4e56939",
   "lastOpenFiles": [
-    "Gratitude.md",
-    "index.md",
+    "Open Source Notes.md",
     "Esports.md",
     "Currently.md",
-    "posts/20251111 my breakfast recipe.md",
-    "posts/20250919 things to do in waterloo.md",
-    "posts/20251117 Building the Lester St to Phillip St Pedestrian Shortcut.md",
-    "Open Source Notes.md",
     "Books.md",
+    "Gratitude.md",
+    "index.md",
     "Principles.md",
+    "Resume.md",
+    "posts/20251117 Building the Lester St to Phillip St Pedestrian Shortcut.md",
+    "Untitled.canvas",
+    "Untitled.base",
     "portfolio/Portfolio Page.md",
     "portfolio/Software/EWB Waturbine Matlab/EWB Waturbine Matlab Script.md",
     "portfolio/Hardware/Viktor from Arcane/Viktor Robotic Arm Cosplay Prop.md",
@@ -204,9 +206,6 @@
     "archive/20251203.md",
     "archive/League of Legends article.md",
     "archive/shows.md",
-    "Untitled.base",
-    "Resume.md",
-    "Untitled.canvas",
     "images/resume_Jan2026.pdf.md",
     "images",
     "miscfiles",
@@ -228,6 +227,8 @@
     "portfolio/Software/EWB Waturbine Matlab/img/bisect_carousel",
     "portfolio/Software/EWB Waturbine Matlab/img/og_blade_carousel/Untitled",
     "portfolio/Software/EWB Waturbine Matlab/img/og_blade_carousel",
-    "portfolio/Software/Customizable CSS Injection for Draftlol.md"
+    "portfolio/Software/Customizable CSS Injection for Draftlol.md",
+    "portfolio/Hardware/Audio Mixer/Plate Design.md",
+    "portfolio/Hardware/Audio Mixer/Lectures and Learning Resources.md"
   ]
 }
