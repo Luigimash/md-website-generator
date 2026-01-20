@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ad9a67394e39a398",
+        "id": "3440cf6c545cfa1b",
         "type": "tabs",
         "children": [
           {
-            "id": "5923d997c4e56939",
+            "id": "070eb60aaf019766",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/20251117 Building the Lester St to Phillip St Pedestrian Shortcut.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "20251117 Building the Lester St to Phillip St Pedestrian Shortcut"
+              "title": "New tab"
             }
           }
         ]
@@ -166,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,17 +176,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5923d997c4e56939",
+  "active": "070eb60aaf019766",
   "lastOpenFiles": [
-    "Open Source Notes.md",
-    "Esports.md",
+    "posts/20240822 frieren.md",
+    "photos/frieren.jpg",
+    "posts/20241227 exceptional is not sexy.md",
+    "posts/20250919 things to do in waterloo.md",
     "Currently.md",
+    "Esports.md",
+    "posts/20251117 Building the Lester St to Phillip St Pedestrian Shortcut.md",
+    "Open Source Notes.md",
     "Books.md",
     "Gratitude.md",
     "index.md",
     "Principles.md",
     "Resume.md",
-    "posts/20251117 Building the Lester St to Phillip St Pedestrian Shortcut.md",
     "Untitled.canvas",
     "Untitled.base",
     "portfolio/Portfolio Page.md",
@@ -222,13 +221,9 @@
     "portfolio/Software/EWB Waturbine Matlab/img/og_blade_carousel/2_og_blade_CURVES.jpg",
     "portfolio/Software/EWB Waturbine Matlab/img/og_blade_carousel/1_og_blade.jpg",
     "portfolio/Software/EWB Waturbine Matlab/img/mold_carousel/wb_mold_1.webp",
-    "portfolio/Software/EWB Waturbine Matlab/img/bisect_carousel/wb_bisect2.jpg",
     "portfolio/Software/EWB Waturbine Matlab/img/mold_carousel",
     "portfolio/Software/EWB Waturbine Matlab/img/bisect_carousel",
     "portfolio/Software/EWB Waturbine Matlab/img/og_blade_carousel/Untitled",
-    "portfolio/Software/EWB Waturbine Matlab/img/og_blade_carousel",
-    "portfolio/Software/Customizable CSS Injection for Draftlol.md",
-    "portfolio/Hardware/Audio Mixer/Plate Design.md",
-    "portfolio/Hardware/Audio Mixer/Lectures and Learning Resources.md"
+    "portfolio/Software/EWB Waturbine Matlab/img/og_blade_carousel"
   ]
 }
