@@ -4,13 +4,12 @@ title: home
 # Home
 My name is Jackie Yi. I'm currently:
 - Studying Mechatronics Engineering @ University of Waterloo, Class of 2027.
-- Host at [Socratica](https://socratica.info). Directed the show for Symposium [W24](https://www.youtube.com/watch?v=xQFHZhmiJuA) and [W25](https://www.youtube.com/watch?v=mkJjbCQC_Qs).
+- Host at [Socratica](https://socratica.info). Directed the show for Symposium [2024](https://www.youtube.com/watch?v=xQFHZhmiJuA), [2025](https://www.youtube.com/watch?v=mkJjbCQC_Qs), [2026](https://www.youtube.com/watch?v=0FeiflPA4pg) 
+- Working at Sunday Robotics in California
 
-I was once a freelance esports broadcast and events generalist. 
+I was once a freelance esports broadcast and events generalist. Previously @ Mecka.AI, Upside Robotics.
 
 I don't yet know what I will be doing in the future, but I hope you're a part of it.
-
-I'm always game for a good conversation. Hit me up if you want to chat about anything. 
 
 ### Directory:
 > [Blog posts](https://loojy.me/posts/)
