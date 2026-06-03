@@ -14,6 +14,8 @@ Thank you:
 - Bonnie, for living life with me 
 - Hasan, for being an inspirational unit
 - Vivian, for exploring identity with me
+- Shalott, for questioning me
+- Cheryl, for brightening my day
 - Emiree, for taking a chance on me
 - Josh, for taking a chance on me
 - Quach, for setting an example for me

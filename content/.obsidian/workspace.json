@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7620043180330faa",
+        "id": "a1eac7a60465d683",
         "type": "tabs",
         "children": [
           {
-            "id": "3b5759f8fd7519e6",
+            "id": "6b2d7d84928d85c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,25 +180,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b5759f8fd7519e6",
+  "active": "6b2d7d84928d85c7",
   "lastOpenFiles": [
+    "index.md",
     "Currently.md",
+    "Esports.md",
+    "Gratitude.md",
+    "Open Source Notes.md",
+    "posts/20231120 love yourself to love others.md",
+    "portfolio/Broadcast Work/Socratica Symposium.md",
+    "portfolio/Broadcast Work/Showlist.md",
+    "info/what is loojy.md",
+    "Books.md",
+    "Principles.md",
+    "portfolio/Portfolio Page.md",
     "photos/frieren.jpg",
     "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/Lest_St_reddit_post.jpg",
     "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/bus_connections_map.jpg",
     "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/275_Lester.jpg",
     "photos/20251117 Building the Lester St - Phillip St Pedestrian Shortcut/252_albert_to_m3_only1200meters.jpg",
     "posts/20251117 Building the Lester St to Phillip St Pedestrian Shortcut.md",
-    "Open Source Notes.md",
-    "Esports.md",
-    "Books.md",
-    "Gratitude.md",
-    "index.md",
-    "Principles.md",
     "Resume.md",
     "Untitled.canvas",
     "Untitled.base",
-    "portfolio/Portfolio Page.md",
     "portfolio/Software/EWB Waturbine Matlab/EWB Waturbine Matlab Script.md",
     "portfolio/Hardware/Viktor from Arcane/Viktor Robotic Arm Cosplay Prop.md",
     "portfolio/Hardware/Fightstick/Fightstick 1.1.md",
@@ -213,7 +217,6 @@
     "images/resume_Jan2026.pdf.md",
     "images",
     "miscfiles",
-    "Portfolio.md",
     "miscfiles/resume_Jan2026.pdf",
     "miscfiles",
     "New folder",
@@ -225,8 +228,6 @@
     "portfolio/Software/EWB Waturbine Matlab/img/mold_carousel",
     "portfolio/Software/EWB Waturbine Matlab/img/bisect_carousel",
     "portfolio/Software/EWB Waturbine Matlab/img/og_blade_carousel/Untitled",
-    "portfolio/Software/EWB Waturbine Matlab/img/og_blade_carousel",
-    "portfolio/Software/Customizable CSS Injection for Draftlol.md",
-    "portfolio/Hardware/Audio Mixer/Plate Design.md"
+    "portfolio/Software/EWB Waturbine Matlab/img/og_blade_carousel"
   ]
 }
